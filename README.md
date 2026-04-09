@@ -1,21 +1,34 @@
-# joseph-journals
-Joseph's Journals will be a place to store sermons that maybe one day I will be able to teach
+# Sermon Site Project
 
-The Step-Father of Jesus, was not mentioned in the bible after that fateful day of our Lord and Savior's birth. Although he raised the King of Glory and knew all to be true, he is not mentioned.  My wife acknowledged that I too am like that.  God has shown me the truth but as of yet, provided a platform to speak it.
+This project is a markdown-driven website for writing, organizing, and publishing sermons.
 
-## Table of Contents
+## Purpose
 
-- [Table of Contents](#table-of-contents)
-- [Philippians 1:1-5 Why you're still here: Eyes for Eternity](#philippians-11-5-why-youre-still-here-eyes-for-eternity)
+- Create and publish sermons in a structured format
+- Maintain theological consistency
+- Use AI tools (ChatGPT + Copilot) to assist in writing and development
+- Deploy automatically via GitHub Pages
 
-## Philippians 1:1-5 Why you're still here: Eyes for Eternity
+## Stack (Planned)
 
-[Verse By Verse Ministry - Eyes for Eternity](https://versebyverseministry.org/lessons/eyes-for-eternity)
+- Static site generator (TBD)
+- Markdown-based content
+- GitHub Actions for deployment
 
-*This is the last sermon Pastor Stephen Armstrong taught on 10 January 2021, and he issued a roadmap of the 4 chapters of Philippians, that I would like to reveal it.  I know Pastor Wesley Livingston finished this book but I am not sure if he tried to map it out as Pastor Armstrong did.*
+## Structure
 
-**Question:** *Why are you not dead yet?*
+- docs/ → project definition and rules
+- prompts/ → AI prompt templates
+- content/ → sermon content
+- references/ → research and sources
 
-**Answer:** *Some work to advance the kingdom during this time*
+## Workflow (High-Level)
 
-- Convicting letters
+1. Draft sermon in `content/sermons/drafts/`
+2. Use ChatGPT to refine
+3. Move to publish-ready
+4. Deploy via GitHub Actions
+
+## Status
+
+🚧 Initial setup phase
