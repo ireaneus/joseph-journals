@@ -12,15 +12,12 @@ export default defineConfig({
 					label: 'Start Here',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Home', slug: 'index' },
+						{ label: 'Joseph Journals', slug: 'index' },
 					],
 				},
 				{
 					label: 'Journals',
-					items: [
-      					{ label: 'Journal Entries', slug: 'sermons' },
-      				  	{ label: 'First Sermon Draft', slug: 'sermons/drafts/first-sermon' },
-					],
+					autogenerate: { directory: 'sermons' }
 				},
 			],
 		}),
