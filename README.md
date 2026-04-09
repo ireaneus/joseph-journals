@@ -1,34 +1,49 @@
-# Sermon Site Project
+# Starlight Starter Kit: Basics
 
-This project is a markdown-driven website for writing, organizing, and publishing sermons.
+[![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
 
-## Purpose
+```
+npm create astro@latest -- --template starlight
+```
 
-- Create and publish sermons in a structured format
-- Maintain theological consistency
-- Use AI tools (ChatGPT + Copilot) to assist in writing and development
-- Deploy automatically via GitHub Pages
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-## Stack (Planned)
+## 🚀 Project Structure
 
-- Static site generator (TBD)
-- Markdown-based content
-- GitHub Actions for deployment
+Inside of your Astro + Starlight project, you'll see the following folders and files:
 
-## Structure
+```
+.
+├── public/
+├── src/
+│   ├── assets/
+│   ├── content/
+│   │   └── docs/
+│   └── content.config.ts
+├── astro.config.mjs
+├── package.json
+└── tsconfig.json
+```
 
-- docs/ → project definition and rules
-- prompts/ → AI prompt templates
-- content/ → sermon content
-- references/ → research and sources
+Starlight looks for `.md` or `.mdx` files in the `src/content/docs/` directory. Each file is exposed as a route based on its file name.
 
-## Workflow (High-Level)
+Images can be added to `src/assets/` and embedded in Markdown with a relative link.
 
-1. Draft sermon in `content/sermons/drafts/`
-2. Use ChatGPT to refine
-3. Move to publish-ready
-4. Deploy via GitHub Actions
+Static assets, like favicons, can be placed in the `public/` directory.
 
-## Status
+## 🧞 Commands
 
-🚧 Initial setup phase
+All commands are run from the root of the project, from a terminal:
+
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+## 👀 Want to learn more?
+
+Check out [Starlight’s docs](https://starlight.astro.build/), read [the Astro documentation](https://docs.astro.build), or jump into the [Astro Discord server](https://astro.build/chat).
