@@ -16,9 +16,9 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Sermons',
+					label: 'Journals',
 					items: [
-      					{ label: 'Overview', slug: 'sermons' },
+      					{ label: 'Journal Entries', slug: 'sermons' },
       				  	{ label: 'First Sermon Draft', slug: 'sermons/drafts/first-sermon' },
 					],
 				},
