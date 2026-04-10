@@ -8,18 +8,13 @@ export default defineConfig({
 		starlight({
 			title: 'Journals of a Preacher',
 			sidebar: [
-				{
-					label: 'Start Here',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Joseph Journals', link: '/' },
-					],
-				},
-				{
-					label: 'Journals',
-					autogenerate: { directory: 'sermons' }
-				},
-			],
+  				{ label: 'Home', link: '/' },
+  				{ label: 'Sermons', autogenerate: { directory: 'sermons' } },
+  				{ label: 'Devotions', autogenerate: { directory: 'devotions' } },
+  				{ label: 'Bible Studies', autogenerate: { directory: 'bible-studies' } },
+  				{ label: 'Guides', autogenerate: { directory: 'guides' } },
+  				{ label: 'References', autogenerate: { directory: 'reference' } },
+			]
 		}),
 	],
 });

@@ -628,6 +628,20 @@
     {
       "type": "object",
       "properties": {
+        "description": {
+          "type": "string"
+        },
+        "docType": {
+          "type": "string",
+          "enum": [
+            "sermon",
+            "devotion",
+            "bible-study",
+            "guide",
+            "reference",
+            "resource"
+          ]
+        },
         "passage": {
           "type": "string"
         },
@@ -648,10 +662,18 @@
           }
         },
         "date": {
-          "type": "string",
-          "format": "date-time"
+          "type": "string"
+        },
+        "speaker": {
+          "type": "string"
+        },
+        "audience": {
+          "type": "string"
         }
-      }
+      },
+      "required": [
+        "description"
+      ]
     }
   ]
 }
