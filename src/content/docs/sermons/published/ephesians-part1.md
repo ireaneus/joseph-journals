@@ -1,0 +1,139 @@
+---
+layout: ../../../../layouts/DocLayout.astro
+title: The Trinitarian Berakah Our Sovereign Heritage
+description: A sermon on Ephesians 1:3–14 focusing on the Trinitarian work of salvation and the praise of God's glory
+docType: sermon
+date: 2026-04-09
+status: published
+series: Ephesians
+seriesOrder: 1
+passage: Ephesians 1:3-14
+tags:
+  - salvation
+  - election
+  - trinity
+  - sovereignty
+  - praise
+speaker: David Haines
+---
+
+## The Trinitarian Berakah: Our Sovereign Heritage
+
+**Text:** Ephesians 1:3–14 (NASB 1995)
+
+### The Call to Reverence
+
+Friends, we come today to a passage that is often called the *"Berakah"*—a Hebrew-style blessing or *"eulogy"* of God. In the original Greek, verses 3 through 14 are one single, breathless sentence. It is as if the Apostle Paul, caught up in the heights of celestial glory, cannot find a place to stop for air.
+
+He is looking at the *"Golden Chain"* of our salvation. As we read these words, remember that you are not looking at a dry theological manual; you are looking at the inventory of your inheritance in Christ.
+
+Before we approach the throne of God through His Word, let us remember the scene in **Nehemiah 8:5**:
+
+> *"Ezra opened the book in the sight of all the people for he was standing above all the people; and when he opened it, all the people stood up."*
+
+As we read these verses in Ephesians, I invite you to stand, if you are able, in honor of the reading of God’s Holy Word.
+
+> *"Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ, just as He chose us in Him before the foundation of the world, that we would be holy and blameless before Him. In love He predestined us to adoption as sons through Jesus Christ to Himself, according to the kind intention of His will, to the praise of the glory of His grace, which He freely bestowed on us in the Beloved.*
+>
+> *In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace which He caused to abound to us. In all wisdom and insight He made known to us the mystery of His will, according to His kind intention which He purposed in Him with a view to an administration suitable to the fullness of the times, that is, the summing up of all things in Christ, things in the heavens and things on the earth. In Him also we have obtained an inheritance, having been predestined according to His purpose who works all things after the counsel of His will, to the end that we who were the first to hope in Christ would be to the praise of His glory.*
+>
+> *In Him, you also, after listening to the message of truth, the gospel of your salvation—having also believed, you were sealed in Him with the Holy Spirit of promise, who is given as a pledge of our inheritance, with a view to the redemption of God’s own possession, to the praise of His glory."*
+
+---
+
+## Central Point
+
+**Our salvation is a Trinitarian masterpiece, sovereignly orchestrated by the Father, legally purchased by the Son, and eternally preserved by the Spirit—all to the end that He might be praised.**
+
+---
+
+Let’s take a step back in time for a moment and think about our own salvation story.
+
+Do you remember when you *came to Christ?*
+
+Many of us describe it like this:
+
+* *“I gave my life to Jesus.”*
+* *“A friend invited me to church”*
+* *“I made a decision to follow Jesus.”*
+* *"I was searching.. trying to figure things out"*
+
+And those things are real.
+Scripture affirms them:
+
+> **Romans 10:9 (NASB1995)**
+> *“that if you confess with your mouth Jesus as Lord, and believe in your heart that God raised Him from the dead, you will be saved;”*
+
+But Scripture also tells us something deeper:
+
+> **1 John 4:19 (NASB1995)**
+> *“We love, because He first loved us.”*  
+>
+> **John 6:44 (NASB1995)**
+> *“No one can come to Me unless the Father who sent Me draws him…”*
+
+Which means what we often call the beginning…
+is actually our response to something God started long before.
+
+So where does our story begin?
+
+---
+
+## I. The Father’s Decree: The Source of Grace
+
+Paul begins our story in the heavens: *"Blessed be the God and Father of our Lord Jesus Christ, who has blessed us with every spiritual blessing in the heavenly places in Christ..."*
+
+Our salvation began in the mind of God before time existed. Note verse 4: *"He chose us in Him before the foundation of the world."* This is reinforced by **Romans 8:29–30**:
+
+> *"For those whom He foreknew, He also predestined to become conformed to the image of His Son... and these whom He predestined, He also called; and these whom He called, He also justified; and these whom He justified, He also glorified."*
+
+If your salvation rested on your ability to stay *"choosable,"* you would lose it by lunchtime. But because it was settled before the stars were hung, it is as firm as the throne of God.
+
+---
+
+## II. The Son’s Purchase: The Means of Grace
+
+Paul shifts from the decree in eternity to the delivery in history: *"In Him we have redemption through His blood, the forgiveness of our trespasses, according to the riches of His grace..."* (v. 7).
+
+The Father’s plan required a price. This is not a *"metaphorical"* redemption; it is a legal reality. We see this echoed in **Colossians 1:13–14**:
+
+> *"For He rescued us from the domain of darkness, and transferred us to the kingdom of His beloved Son, in whom we have redemption, the forgiveness of sins."*
+
+You are not just *"forgiven"* in a legal sense; you are *"accepted in the Beloved."*
+
+---
+
+## III. The Spirit’s Seal: The Security of Grace
+
+Finally, Paul brings this home to our present experience: *"In Him, you also... were sealed in Him with the Holy Spirit of promise..."*
+
+> **2 Corinthians 1:21–22 (NASB1995)**
+> *"Now He who establishes us with you in Christ and anointed us is God, who also sealed us and gave us the Spirit in our hearts as a pledge."*
+
+The Holy Spirit is the down payment of your inheritance.
+
+If God has given you the Spirit, He will complete the work.
+
+---
+
+## Conclusion: Soli Deo Gloria
+
+Three times in this passage, like a recurring holy thunder, Paul strikes the same chord:
+
+**"To the praise of His glory"** (vv. 6, 12, 14)
+
+> **Isaiah 42:8 (NASB1995)**  
+> *"I am the Lord, that is My name; I will not give My glory to another, nor My praise to graven images."*  
+>
+> **Romans 11:36 (NASB1995)**
+> *"For from Him and through Him and to Him are all things. To Him be the glory forever. Amen."*
+
+**Our salvation is a Trinitarian masterpiece, sovereignly orchestrated by the Father, legally purchased by the Son, and eternally preserved by the Spirit—all to the end that He might be praised.**
+
+The Father elected you to the praise of His glory.
+The Son redeemed you to the praise of His glory.
+The Spirit sealed you to the praise of His glory.
+
+**Soli Deo Gloria.**
+
+---

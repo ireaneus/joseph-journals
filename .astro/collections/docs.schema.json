@@ -648,6 +648,9 @@
         "series": {
           "type": "string"
         },
+        "seriesOrder": {
+          "type": "number"
+        },
         "status": {
           "type": "string",
           "enum": [

@@ -3,9 +3,11 @@ layout: ../../../../layouts/DocLayout.astro
 title: Philippians Part 1 Christ is Everything
 description: This is the last sermon Pastor Stephen Armstrong taught on 10 January 2021, and he issued a roadmap of the 4 chapters of Philippians, that I would like to reveal it.  I know Pastor Wesley Livingston finished this book but I am not sure if he tried to map it out as Pastor Armstrong did.
 date: 2021-01-10
+docType: sermon
 passage: Philippians 1:1-5
 series: Philippians
-status: published
+seriesOrder: 1
+status: draft
 tags:
   - purpose
   - goal

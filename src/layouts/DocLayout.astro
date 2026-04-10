@@ -6,6 +6,7 @@ interface Props {
     date?: Date;
     passage?: string;
     series?: string;
+    seriesName?: string;
     speaker?: string;
     tags?: string[];
     status?: string;
@@ -15,17 +16,17 @@ interface Props {
 
 const { frontmatter } = Astro.props;
 
-// Format date as "DD Month YYYY"
+import SeriesIndex from '../components/SeriesIndex.astro';
+
+// Format date as "DD short month YYYY"
 const formatDate = (date: Date | string | undefined): string => {
   if (!date) return '';
   try {
     const d = typeof date === 'string' ? new Date(date) : new Date(date);
-    const options: Intl.DateTimeFormatOptions = {
-      day: '2-digit',
-      month: 'long',
-      year: 'numeric'
-    };
-    return d.toLocaleDateString('en-US', options);
+    const day = d.getDate().toString().padStart(2, '0');
+    const month = d.toLocaleDateString('en-US', { month: 'short' });
+    const year = d.getFullYear();
+    return `${day} ${month} ${year}`;
   } catch {
     return String(date);
   }
@@ -89,7 +90,11 @@ const formatDate = (date: Date | string | undefined): string => {
   </div>
 
   <div class="doc-content">
-    <slot />
+    {frontmatter.seriesName ? (
+      <SeriesIndex seriesName={frontmatter.seriesName} />
+    ) : (
+      <slot />
+    )}
   </div>
 </article>
 

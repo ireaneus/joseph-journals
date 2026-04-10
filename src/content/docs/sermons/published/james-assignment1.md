@@ -1,0 +1,168 @@
+---
+layout: ../../../../layouts/DocLayout.astro
+title: The Evidence of Life
+description: A sermon on James 2:14–26 examining the difference between dead faith and living faith
+date: 2026-04-10
+docType: sermon
+passage: James 2:14-26
+series: james
+seriesOrder: 1
+status: published
+tags: 
+    - faith
+    - works
+    - obedience
+    - transformation
+---
+
+## James 2:14–26 Introduction (NASB1995)
+
+> **14** *What use is it, my brethren, if someone says he has faith but he has no works? Can that faith save him?*
+> **15** *If a brother or sister is without clothing and in need of daily food,*
+> **16** *and one of you says to them, “Go in peace, be warmed and be filled,” and yet you do not give them what is necessary for their body, what use is that?*
+> **17** *Even so faith, if it has no works, is dead, being by itself.*
+> **18** *But someone may well say, “You have faith and I have works; show me your faith without the works, and I will show you my faith by my works.”*
+> **19** *You believe that God is one. You do well; the demons also believe, and shudder.*
+> **20** *But are you willing to recognize, you foolish fellow, that faith without works is useless?*
+> **21** *Was not Abraham our father justified by works when he offered up Isaac his son on the altar?*
+> **22** *You see that faith was working with his works, and as a result of the works, faith was perfected;*
+> **23** *and the Scripture was fulfilled which says, “And Abraham believed God, and it was reckoned to him as righteousness,” and he was called the friend of God.*
+> **24** *You see that a man is justified by works and not by faith alone.*
+> **25** *In the same way, was not Rahab the harlot also justified by works when she received the messengers and sent them out by another way?*
+> **26** *For just as the body without the spirit is dead, so also faith without works is dead.*
+
+---
+
+## Sermon Introduction: The Evidence of Life
+
+### Pray
+
+*Heavenly Father, we come before You today recognizing that our own hearts can often be deceptive. We pray for our own submission to this text—both as the preacher and the listener—asking that You would grant us the courage to examine our faith in the light of Your truth. We pray that this would not just be a time of information, but of transformation. In Jesus’ name, Amen.*
+
+---
+
+### Introduction / Connection
+
+In the summer of 1859, a famous French tightrope walker named Charles Blondin became the first person to cross Niagara Falls on a tightrope. He crossed the roaring gorge several times—blindfolded, on stilts, and even carrying a small stove to cook an omelet while suspended hundreds of feet in the air.
+
+As thousands cheered, Blondin turned to the crowd and asked if they believed he could cross while pushing a man in a wheelbarrow. The crowd erupted with a resounding, "Yes!" They were intellectually convinced of his skill. But when Blondin asked for a volunteer to actually get into the wheelbarrow, the crowd went silent.
+
+They had "faith" in his ability, but no one was willing to put their life behind that claim.
+
+This story illustrates the dangerous gap we often find in our spiritual lives: the distance between what we say we believe and what we are actually willing to do.
+
+---
+
+### State the Big Idea or Problem/Question
+
+* **The Big Idea:** The essential test for any profession of faith is: “Does my belief in God produce the kind of practical, life-changing actions that prove my faith is actually alive?”
+* **The Problem/Question:** Is a verbal profession of faith enough to save a person, or is there a specific kind of evidence that must be present for faith to be considered alive and saving?
+
+---
+
+### Background
+
+James is writing to believers who were navigating the pressures of daily life and relationships. He is addressing a dangerous spiritual false security where individuals possess what he calls "dead faith"—a "verbal-only" faith where they claim to believe in God but live lives indistinguishable from the world.
+
+He wants us to understand that saving faith is not merely intellectual agreement; it is a living power.
+
+---
+
+### Read the Passage
+
+*Read **James 2:14–26** (NASB1995) with meaning and inflection, capturing the weight of the contrast between "dead" religion and "living" faith.*
+
+---
+
+### Restate the Big Idea or Problem/Question
+
+We have to ask ourselves:
+
+Is our faith a living, breathing reality that moves our hands and feet, or is it just a ghost of a confession with no power to change us?
+
+If there is no movement in our lives toward obedience and toward those in need, we must ask if there is truly any life in our faith at all.
+
+---
+
+## II. THE ROAD MAP (Transitions)
+
+To understand the difference between a faith that *talks* and a faith that *walks*, we are going to look at three things in James chapter 2:
+
+1. **The Internal Tension:** Why words without deeds leave the soul empty (v. 14–17)
+2. **The Intellectual Trap:** Why even demons have "correct" theology but no transformation (v. 18–19)
+3. **The Historical Proof:** How the lives of Abraham and Rahab prove that active obedience is the visibility of invisible trust (v. 20–26)
+
+Imagine: You are standing at the edge of the Niagara gorge, just like that crowd watching Blondin.
+
+You’ve shouted your "Amen," you’ve sung the songs, and you’ve checked the boxes.
+
+But James is about to ask us to get into the wheelbarrow.
+
+This isn't about earning your salvation; it’s about *proving* your salvation.
+
+---
+
+## III. THE INTERNAL TENSION: WORDS VS. DEEDS (v. 14–17)
+
+James begins with a piercing question: What good is a faith that never moves?
+
+If someone sees a brother or sister in need and offers only words—without action—James says that kind of faith is useless.
+
+Faith that does not act is not weak faith—it is dead faith.
+
+---
+
+## IV. THE INTELLECTUAL TRAP: EVEN DEMONS BELIEVE (v. 18–19)
+
+James raises the bar even higher.
+
+Even demons believe correct doctrine.
+
+They know who God is. They understand His power. And yet—they do not submit.
+
+This reveals a sobering truth:
+
+Correct theology alone is not saving faith.
+
+God is not seeking mere agreement—He is seeking transformed allegiance.
+
+---
+
+## V. THE HISTORICAL PROOF: ABRAHAM AND RAHAB (v. 20–26)
+
+James points to two examples:
+
+* Abraham, the patriarch
+* Rahab, the outsider
+
+Both proved their faith by their actions.
+
+Abraham trusted God and obeyed.
+
+Rahab believed God and acted at great personal risk.
+
+Different backgrounds—same evidence.
+
+Living faith always moves.
+
+---
+
+## VI. CONCLUSION: THE EVIDENCE OF LIFE
+
+We return to the question:
+
+Is a verbal profession of faith enough?
+
+James answers clearly:
+
+No.
+
+True faith is not invisible—it is demonstrated.
+
+The essential test of faith is not what we say, but what our lives reveal.
+
+Let us leave not merely as those who claim belief—
+
+but as those whose lives bear the evidence of a living, active faith.
+
+**Amen.**

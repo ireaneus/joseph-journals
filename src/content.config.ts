@@ -14,6 +14,7 @@ export const collections = {
           .optional(),
         passage: z.string().optional(),
         series: z.string().optional(),
+        seriesOrder: z.number().optional(),
         status: z.enum(['draft', 'published']).optional(),
         tags: z.array(z.string()).optional(),
         date: z.coerce.date().optional(),

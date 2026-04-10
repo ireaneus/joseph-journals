@@ -1,18 +1,12 @@
 ---
-layout: ../../../layouts/DocLayout.astro
+layout: ../../../../layouts/DocLayout.astro
 title: 
 description: 
-docType: sermon
 date: 2026-04-10
+docType: sermon
 passage: 
 series: 
+seriesOrder: 1
 status: draft
-tags: []
-speaker: David Haines
+tags: [-]
 ---
-
-## Introduction
-
-## Main Point
-
-## Application
