@@ -12,7 +12,7 @@ export default defineConfig({
 					label: 'Start Here',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Joseph Journals', slug: 'index' },
+						{ label: 'Joseph Journals', link: '/' },
 					],
 				},
 				{
