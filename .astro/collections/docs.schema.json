@@ -662,7 +662,8 @@
           }
         },
         "date": {
-          "type": "string"
+          "type": "string",
+          "format": "date-time"
         },
         "speaker": {
           "type": "string"

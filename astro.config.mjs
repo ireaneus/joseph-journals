@@ -7,6 +7,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'Journals of a Preacher',
+			customCss: ['./src/styles/theme.css'],
 			sidebar: [
   				{ label: 'Home', link: '/' },
   				{ label: 'Sermons', autogenerate: { directory: 'sermons' } },

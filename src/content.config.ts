@@ -16,7 +16,7 @@ export const collections = {
         series: z.string().optional(),
         status: z.enum(['draft', 'published']).optional(),
         tags: z.array(z.string()).optional(),
-        date: z.string().optional(),
+        date: z.coerce.date().optional(),
         speaker: z.string().optional(),
         audience: z.string().optional(),
       }),
