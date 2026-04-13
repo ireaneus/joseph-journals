@@ -10,6 +10,7 @@ interface Props {
     speaker?: string;
     tags?: string[];
     status?: string;
+    image?: string;
     [key: string]: any;
   };
 }
@@ -36,6 +37,10 @@ const formatDate = (date: Date | string | undefined): string => {
 <article class="doc-article">
   <div class="doc-header">
     
+    {frontmatter.image && (
+      <img src={frontmatter.image} alt={frontmatter.title || 'Document image'} class="doc-image" />
+    )}
+
     {frontmatter.description && (
       <p class="doc-description">{frontmatter.description}</p>
     )}
@@ -194,15 +199,6 @@ const formatDate = (date: Date | string | undefined): string => {
     padding: 0.15rem 0.3rem;
     border-radius: 0.35rem;
   }
-
-  .doc-content table {
-    width: 100%;
-    border-collapse: collapse;
-    margin: 1.5rem 0;
-  }
-
-  .doc-content th,
-  .doc-content td {
     border: 1px solid var(--sl-color-hairline);
     padding: 0.75rem 1rem;
   }
@@ -300,5 +296,15 @@ const formatDate = (date: Date | string | undefined): string => {
 
   .doc-content {
     margin-top: 2rem;
+  }
+
+  .doc-image {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 </style>
