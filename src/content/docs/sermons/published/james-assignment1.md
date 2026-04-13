@@ -2,12 +2,12 @@
 layout: ../../../../layouts/DocLayout.astro
 title: The Evidence of Life
 description: A sermon on James 2:14–26 examining the difference between dead faith and living faith
-date: 2026-04-10
 docType: sermon
-passage: James 2:14-26
-series: james
-seriesOrder: 1
+date: 2026-04-10
 status: published
+series: James
+seriesOrder: 1
+passage: James 2:14-26
 tags: 
     - faith
     - works

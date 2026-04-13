@@ -1,0 +1,117 @@
+---
+layout: ../../../../layouts/DocLayout.astro
+title: The Two Wisdoms
+description: A sermon on James 3:13–18 contrasting earthly wisdom with heavenly wisdom and its fruit in the believer’s life
+date: 2026-04-10
+docType: sermon
+status: published
+series: James
+seriesOrder: 2
+passage: James 3:13-18
+tags: [wisdom, humility, peace, righteousness]
+---
+
+## James 3:13–18 — The Two Wisdoms
+
+### Prayer
+
+*Heavenly Father, as we look into Your Word today, guide us by Your Holy Spirit in all truth. Reveal Jesus Your Son to us more clearly today. This text speaks of two wisdoms, and if the wisdom from above makes us fools on earth, we look forward to the joy that comes from following You. Give us eyes for eternity, and grant us the humble boldness to live out this wisdom. In Jesus’ name, Amen.*
+
+---
+
+## Introduction / Connection
+
+Born in 1902 to a working-class family in North London, Gladys Aylward began working as a domestic servant at age fourteen. Later, she applied to the China Inland Mission, but was rejected for missionary service because she was considered academically unqualified and too old to learn Chinese.
+
+Yet Gladys did not turn back. She used her life savings to buy a one-way ticket on the Trans-Siberian Railway and traveled through war-torn territory to reach the village of Yangcheng. There she opened “The Inn of the Eight Happinesses,” welcoming travelers, sharing Scripture, and eventually becoming a trusted leader in the community.
+
+During the war, she led one hundred orphans across mountains to safety at great personal cost. The woman deemed “unfit” for missionary service demonstrated a wisdom that could not be measured by human standards. Her life embodied what Scripture calls *“the wisdom from above.”*
+
+---
+
+## Read the Passage — James 3:13–18 (NASB1995)
+
+> **13** *Who among you is wise and understanding? Let him show by his good behavior his deeds in the gentleness of wisdom.*
+> **14** *But if you have bitter jealousy and selfish ambition in your heart, do not be arrogant and so lie against the truth.*
+> **15** *This wisdom is not that which comes down from above, but is earthly, natural, demonic.*
+> **16** *For where jealousy and selfish ambition exist, there is disorder and every evil thing.*
+> **17** *But the wisdom from above is first pure, then peaceable, gentle, reasonable, full of mercy and good fruits, unwavering, without hypocrisy.*
+> **18** *And the seed whose fruit is righteousness is sown in peace by those who make peace.*
+
+---
+
+## The Big Idea
+
+**This passage contrasts two kinds of wisdom—earthly wisdom that breeds disorder, and heavenly wisdom that produces peace and righteousness.**
+
+---
+
+## The Problem / Question
+
+**How can we tell whether the wisdom guiding our lives is truly from God, or simply the product of selfish ambition disguised as wisdom?**
+
+---
+
+## Background
+
+James writes to believers struggling with conflict, pride, and divided loyalties. Having warned about the power of the tongue in chapter 3, James now addresses the root beneath our speech: the wisdom that governs the heart. The issue is not knowledge, but the source and fruit of our wisdom.
+
+---
+
+## Restated Big Idea
+
+We must ask ourselves: **Is our “wisdom” producing peace, or is it producing disorder? What fruit is growing from the advice we live by?**
+
+---
+
+## Road Map
+
+We will examine three movements in this text:
+
+1. **The Evidence of Wisdom** (v. 13) — Wisdom is proven by a life marked by humility.
+2. **The Warning Against Earthly Wisdom** (v. 14–16) — Wisdom rooted in selfish ambition leads to chaos.
+3. **The Character of Heavenly Wisdom** (v. 17–18) — True wisdom from above produces peace and righteousness.
+
+---
+
+## I. The Evidence of Wisdom (v. 13)
+
+James begins with a simple test:
+
+> *“Who among you is wise and understanding? Let him show by his good behavior his deeds in the gentleness of wisdom.”*
+
+True wisdom is not measured by what we claim to know, but by how we live. Wisdom reveals itself in humble, gentle action.
+
+---
+
+## II. The Warning Against Earthly Wisdom (v. 14–16)
+
+James warns that wisdom motivated by jealousy or selfish ambition is not from God:
+
+> *“This wisdom is not that which comes down from above, but is earthly, natural, demonic.”*
+
+Where jealousy and ambition rule the heart, disorder and destruction follow.
+
+---
+
+## III. The Character of Heavenly Wisdom (v. 17–18)
+
+James paints a beautiful picture of wisdom from above:
+
+> *“The wisdom from above is first pure, then peaceable, gentle, reasonable, full of mercy and good fruits, unwavering, without hypocrisy.”*
+
+Heavenly wisdom is marked by purity, peace, mercy, and integrity. It does not merely claim righteousness—it cultivates it.
+
+---
+
+## Conclusion
+
+We return to our central question:
+
+**What kind of wisdom governs our lives?**
+
+If the wisdom we follow produces rivalry, pride, and division, it is not from God. But if our lives are marked by humility, peace, mercy, and righteousness, then we are walking in wisdom from above.
+
+May God grant us the humility to reject earthly wisdom and the courage to walk in the wisdom that produces lasting peace.
+
+**Amen.**
