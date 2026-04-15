@@ -22,9 +22,12 @@ const { frontmatter } = Astro.props as Props;
 const normalizedImagePath = frontmatter.image
   ? String(frontmatter.image).replace(/^\/+/, '')
   : undefined;
+const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
 
 const imageSrc = normalizedImagePath
-  ? `${import.meta.env.BASE_URL}${normalizedImagePath}`
+  ? `${baseUrl}${normalizedImagePath}`
   : undefined;
 
 const formatDate = (date: Date | string | undefined): string => {

@@ -12,7 +12,14 @@ export default defineConfig({
 			customCss: ['./src/styles/theme.css'],
 			sidebar: [
   				{ label: 'Home', link: '/' },
-  				{ label: 'Sermons', autogenerate: { directory: 'sermons' } },
+  				{
+  					label: 'Sermons',
+  					items: [
+  						{ label: 'Series', autogenerate: { directory: 'sermons/series' } },
+  						{ label: 'Topics', autogenerate: { directory: 'sermons/topics' } },
+  						{ label: 'Scripture Index', autogenerate: { directory: 'sermons/scripture-index' } },
+  					],
+  				},
   				{ label: 'Devotions', autogenerate: { directory: 'devotions' } },
   				{ label: 'Bible Studies', autogenerate: { directory: 'bible-studies' } },
 			]
