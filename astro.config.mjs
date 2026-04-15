@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://ireaneus.github.io/joseph-journals/',
+	base: '/joseph-journals',
 	integrations: [
 		starlight({
 			title: 'Journals of a Preacher',

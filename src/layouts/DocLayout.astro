@@ -1,9 +1,11 @@
 ---
+import SeriesIndex from '../components/SeriesIndex.astro';
+
 interface Props {
   frontmatter: {
     title?: string;
     description?: string;
-    date?: Date;
+    date?: Date | string;
     passage?: string;
     series?: string;
     seriesName?: string;
@@ -11,34 +13,44 @@ interface Props {
     tags?: string[];
     status?: string;
     image?: string;
-    [key: string]: any;
+    [key: string]: unknown;
   };
 }
 
-const { frontmatter } = Astro.props;
+const { frontmatter } = Astro.props as Props;
 
-import SeriesIndex from '../components/SeriesIndex.astro';
+const normalizedImagePath = frontmatter.image
+  ? String(frontmatter.image).replace(/^\/+/, '')
+  : undefined;
 
-// Format date as "DD short month YYYY"
+const imageSrc = normalizedImagePath
+  ? `${import.meta.env.BASE_URL}${normalizedImagePath}`
+  : undefined;
+
 const formatDate = (date: Date | string | undefined): string => {
   if (!date) return '';
-  try {
-    const d = typeof date === 'string' ? new Date(date) : new Date(date);
-    const day = d.getDate().toString().padStart(2, '0');
-    const month = d.toLocaleDateString('en-US', { month: 'short' });
-    const year = d.getFullYear();
-    return `${day} ${month} ${year}`;
-  } catch {
+
+  const parsedDate = typeof date === 'string' ? new Date(date) : new Date(date);
+
+  if (Number.isNaN(parsedDate.getTime())) {
     return String(date);
   }
+
+  const day = parsedDate.getDate().toString().padStart(2, '0');
+  const month = parsedDate.toLocaleDateString('en-US', { month: 'short' });
+  const year = parsedDate.getFullYear();
+  return `${day} ${month} ${year}`;
 };
 ---
 
 <article class="doc-article">
   <div class="doc-header">
-    
-    {frontmatter.image && (
-      <img src={frontmatter.image} alt={frontmatter.title || 'Document image'} class="doc-image" />
+    {imageSrc && (
+      <img
+        src={imageSrc}
+        alt={frontmatter.title || 'Document image'}
+        class="doc-image"
+      />
     )}
 
     {frontmatter.description && (
@@ -78,7 +90,7 @@ const formatDate = (date: Date | string | undefined): string => {
         <div class="meta-item">
           <span class="meta-label">Tags:</span>
           <div class="tags-list">
-            {frontmatter.tags.map((tag: string) => (
+            {frontmatter.tags.map((tag) => (
               <span class="tag">{tag}</span>
             ))}
           </div>
@@ -199,6 +211,14 @@ const formatDate = (date: Date | string | undefined): string => {
     padding: 0.15rem 0.3rem;
     border-radius: 0.35rem;
   }
+
+  .doc-content table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .doc-content th,
+  .doc-content td {
     border: 1px solid var(--sl-color-hairline);
     padding: 0.75rem 1rem;
   }
