@@ -1,0 +1,70 @@
+---
+layout: ../../../../layouts/DocLayout.astro
+title: Who do you say that I am?
+description: The gospel message based on a biblical perspective
+date: 2026-04-16
+docType: sermon
+status: published
+series: Topical
+passage: Matthew 16:13-15
+tags: 
+    - Gospel
+    - Good News
+    - Jesus
+---
+
+## Jesus question example
+
+> **Matthew 16:13-16**
+>
+> *Now Jesus was asking His disciples, “Who do people say that the Son of Man is?” they said, “Some say John the Baptist; and others, Elijah; but still others, Jeremiah, or one of the prophets.” He *said to them, “But who do you say that I am?” Simon Peter answered, “You are the Christ, the Son of the living God.”*
+
+I want to pose the same question to you, Who do you say that Jesus is?  
+Why do you say that?
+
+> *"Thank you for your honest answer, it sounds like you have previously wrestled with this question or someone has asked you this before"*
+>
+> *“According to the Bible, who Jesus is determines everything about our relationship with Him and with God the Father. May I show you what the Bible says about that?”*
+
+## 1. Who is Jesus?
+
+> **John 1:1**  
+> *“In the beginning was the Word, and the Word was with God, and the Word was God.”*  
+>
+> **John 1:14**  
+> *“And the Word became flesh, and dwelt among us, and we saw His glory, glory as of the only begotten from the Father, full of grace and truth.”*  
+>
+> **John 14:6 (NASB1995)**
+> *“Jesus said to him, ‘I am the way, and the truth, and the life; no one comes to the Father but through Me.’”*
+>
+> **Isaiah 53:5-6**
+> *"But He was pierced through for our transgressions, He was crushed for our iniquities; The chastening for our well-being fell upon Him, And by His scourging we are healed. All of us like sheep have gone astray, Each of us has turned to his own way; But the Lord has caused the iniquity of us all To fall on Him.*
+
+The Bible teaches that Jesus is not just a _____ — He is God who came into the world to provide a way back to the right relationship with Him.
+
+## 2. Why do we need Him
+
+> **Romans 3:23; 6:23; 5:8**  
+> *"for all have sinned and fall short of the glory of God"*  
+> *"For the wages of sin is death, but the free gift of God is eternal life in Christ Jesus our Lord."*  
+> *"But God demonstrates His own love toward us, in that while we were yet sinners, Christ died for us."*
+
+## 3. What Jesus did?
+
+> **1 Corinthians 15:3-4**
+> *"“For I delivered to you as of first importance what I also received, that Christ died for our sins according to the Scriptures, and that He was buried, and that He was raised on the third day according to the Scriptures.”*
+
+## 4. How we respond
+
+> **Romans 10:9-10** *"that if you confess with your mouth Jesus as Lord, and believe in your heart that God raised Him from the dead, you will be saved; for with the heart a person believes, resulting in righteousness, and with the mouth he confesses, resulting in salvation."*  
+> **10:13** *for “Whoever will call on the name of the Lord will be saved.”*
+
+So to summarize what the Bible teaches
+
+1. God created us to have a relationship with Him.
+2. Our sin has separated us from that relationship.
+3. Jesus Christ is the only way to restore that relationship with God the Father, accomplished through His death, burial, and resurrection on the third day according to the Scriptures.
+4. We are restored to this relationship and adopted as sons and daughters of God through faith in Jesus, as we turn from our sins and trust in Him alone as our Savior and Lord.
+
+> *“After hearing that, who do you say Jesus is?”*  
+> *“Where would you say you are in your relationship with God?”*

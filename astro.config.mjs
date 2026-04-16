@@ -8,7 +8,7 @@ export default defineConfig({
 	base: '/joseph-journals',
 	integrations: [
 		starlight({
-			title: 'Journals of a Preacher',
+			title: 'Journals of a modern-day Joseph',
 			customCss: ['./src/styles/theme.css'],
 			sidebar: [
   				{ label: 'Home', link: '/' },

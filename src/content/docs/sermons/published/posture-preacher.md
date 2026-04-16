@@ -6,7 +6,6 @@ date: 2026-04-10
 docType: devotion
 status: published
 series: Topical
-seriesOrder: 1
 passage: Ezekiel
 tags: 
     - humility

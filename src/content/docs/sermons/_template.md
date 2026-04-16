@@ -8,5 +8,7 @@ status: draft
 series: [Capital first letter]
 seriesOrder: 1
 passage: 
-tags: [-]
+tags: 
+    -
+    
 ---
