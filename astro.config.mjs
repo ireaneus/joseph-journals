@@ -10,6 +10,9 @@ export default defineConfig({
 		starlight({
 			title: 'Journals of a modern-day Joseph',
 			customCss: ['./src/styles/theme.css'],
+			components: {
+				PageTitle: './src/components/starlight/PageTitle.astro',
+			},
 			sidebar: [
   				{ label: 'Home', link: '/' },
   				{
