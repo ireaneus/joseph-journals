@@ -25,6 +25,7 @@ export default defineConfig({
   				},
   				{ label: 'Devotions', autogenerate: { directory: 'devotions' } },
   				{ label: 'Bible Studies', autogenerate: { directory: 'bible-studies' } },
+				{ label: 'Resources', autogenerate: { directory: 'resource' } },
 			]
 		}),
 	],
