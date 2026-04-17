@@ -23,8 +23,8 @@ export default defineConfig({
   						{ label: 'Scripture Index', autogenerate: { directory: 'sermons/scripture-index' } },
   					],
   				},
-  				{ label: 'Devotions', autogenerate: { directory: 'devotions' } },
-  				{ label: 'Bible Studies', autogenerate: { directory: 'bible-studies' } },
+  				{ label: 'Devotions', autogenerate: { directory: 'devotion' } },
+  				{ label: 'Bible Studies', autogenerate: { directory: 'bible-study' } },
 				{ label: 'Resources', autogenerate: { directory: 'resource' } },
 			]
 		}),

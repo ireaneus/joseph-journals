@@ -10,5 +10,4 @@ seriesOrder: 1
 passage: 
 tags: 
     -
-    
 ---
