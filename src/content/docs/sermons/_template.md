@@ -3,8 +3,8 @@ layout: ../../../../layouts/DocLayout.astro
 title: 
 description: 
 date: 2026-04-10
-docType: sermon
-status: draft
+docType: ['sermon', 'devotion', 'bible-study', 'resource']
+status: [ draft, published ]
 series: [Capital first letter]
 seriesOrder: 1
 passage: 
