@@ -8,39 +8,39 @@
   color: var(--sl-color-text, #111);
   scroll-behavior: smooth;
 
-  /* Forest Green Light Mode */
-  --sl-color-accent: hsl(143, 40%, 30%);
-  --sl-color-accent-high: hsl(143, 45%, 74%);
-  --sl-color-accent-low: hsl(143, 45%, 94%);
+  /* Blue Theme Light Mode */
+  --sl-color-accent: hsl(201, 64%, 29%);
+  --sl-color-accent-high: hsl(201, 64%, 74%);
+  --sl-color-accent-low: hsla(187, 64%, 87%, 0.548);
   --sl-color-text-accent: var(--sl-color-accent);
   --sl-color-bg-accent: var(--sl-color-accent-low);
-  --sl-color-bg-nav: hsl(143, 35%, 96%);
-  --sl-color-bg-sidebar: hsl(143, 35%, 96%);
-  --sl-color-bg: hsl(143, 35%, 98%);
-  --sl-color-gray-1: hsl(145, 14%, 18%);
-  --sl-color-gray-2: hsl(145, 12%, 32%);
-  --sl-color-gray-3: hsl(145, 12%, 48%);
-  --sl-color-gray-5: hsl(145, 17%, 86%);
-  --sl-color-accent-dark: hsl(143, 48%, 18%);
+  --sl-color-bg-nav: hsl(55, 86%, 94%);
+  --sl-color-bg-sidebar: hsl(55, 86%, 94%);
+  --sl-color-bg: hsl(55, 86%, 94%);
+  --sl-color-gray-1: hsl(201, 14%, 18%);
+  --sl-color-gray-2: hsl(201, 12%, 32%);
+  --sl-color-gray-3: hsl(201, 12%, 48%);
+  --sl-color-gray-5: hsl(201, 17%, 86%);
+  --sl-color-accent-dark: hsl(201, 64%, 18%);
 }
 
 [data-theme=dark] {
-  /* Forest Green Dark Mode */
-  --sl-color-accent: hsl(143, 50%, 50%);
-  --sl-color-accent-high: hsl(143, 55%, 70%);
-  --sl-color-accent-low: hsl(143, 30%, 15%);
+  /* Blue Theme Dark Mode */
+  --sl-color-accent: hsl(201, 64%, 50%);
+  --sl-color-accent-high: hsl(201, 44%, 66%);
+  --sl-color-accent-low: hsl(201, 30%, 15%);
   --sl-color-text-accent: var(--sl-color-accent-high);
   --sl-color-bg-accent: var(--sl-color-accent-low);
-  --sl-color-bg-nav: hsl(143, 20%, 10%);
-  --sl-color-bg-sidebar: hsl(143, 20%, 10%);
-  --sl-color-bg: hsl(143, 40%, 10%);
-  --sl-color-gray-1: hsl(145, 20%, 80%);
-  --sl-color-gray-2: hsl(145, 15%, 65%);
-  --sl-color-gray-3: hsl(145, 10%, 50%);
-  --sl-color-gray-5: hsl(145, 5%, 25%);
+  --sl-color-bg-nav: hsl(30, 1%, 44%);
+  --sl-color-bg-sidebar: hsl(30, 1%, 44%);
+  --sl-color-bg: hsl(30, 1%, 44%);
+  --sl-color-gray-1: hsl(201, 20%, 85%);
+  --sl-color-gray-2: hsl(204, 25%, 75%);
+  --sl-color-gray-3: hsl(201, 10%, 60%);
+  --sl-color-gray-5: hsl(201, 5%, 25%);
   --sl-color-text: var(--sl-color-gray-2);
   --sl-color-text-invert: #ffffff;
-  --sl-color-accent-dark: hsl(143, 55%, 35%);
+  --sl-color-accent-dark: hsl(201, 64%, 35%);
 }
 
 html {
@@ -50,23 +50,23 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: var(--sl-color-bg, #fff);
-  color: var(--sl-color-text, #1c1c1c);
-  font-weight: 400;
+  background: var(--sl-color-bg);
+  color: var(--sl-color-text);
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Georgia, Cambria, "Times New Roman", serif !important;
-  font-weight: 400 !important;
   letter-spacing: -0.02em;
 }
 
 .site-title,
-.sidebar-content,
+.sidebar-content {
+  background-color: var(--sl-color-bg) !important;
+  font-family: Georgia, Cambria, "Times New Roman", serif !important;
+}
 .sidebar-content a,
 .sidebar-content a[aria-current=true] {
   font-family: Georgia, Cambria, "Times New Roman", serif !important;
-  font-weight: 400 !important;
 }
 
 .pagination-links {

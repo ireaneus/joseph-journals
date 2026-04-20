@@ -1,0 +1,20 @@
+rules:
+  # Bullet/List settings
+  ul-style:
+    style: '-'  # Use '-' for bullets
+    indent: 4   # Indentation for nested lists
+  
+  # Bold/Strong settings
+  strong-style:
+    style: '**'  # Use '**' for bold
+  
+  # Italics/Emphasis settings
+  emphasis-style:
+    style: '*'   # Use '*' for italics
+
+  # Additional recommended rules
+  no-trailing-spaces: true
+  no-multiple-blanks: true
+  no-hard-tabs: true
+  no-bare-urls: true
+  list-marker-space: true
