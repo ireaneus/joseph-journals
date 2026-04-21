@@ -1,0 +1,247 @@
+---
+layout: ../../../../layouts/DocLayout.astro
+title: Conversations on the Road
+description: Real-world gospel conversations, questions, scripture, and prayer while traveling.
+date: 2026-04-21
+docType: devotion
+status: draft
+series: Topical
+tags:
+  - evangelism
+  - travel
+  - gospel
+  - prayer
+  - conversations
+---
+
+## Introduction
+
+God often places people in our path during ordinary moments:
+
+- Pumping gas  
+- Eating in a diner  
+- Waiting in line  
+- Sitting at a campground  
+- Passing through small towns  
+
+Many people are carrying burdens silently. A kind question, listening ear, word of hope, or simple prayer can become a divine appointment.
+
+## Daily Prayer Before Traveling
+
+> Lord Jesus, help me notice people today.  
+> Give me wisdom to know when to speak and when to listen.  
+> Let me carry peace, kindness, truth, and compassion.  
+> Open doors for hope-filled conversations.  
+> Use me for Your glory. Amen.
+
+- Colossians 4:3  
+- Colossians 4:5-6  
+- Ephesians 6:19-20
+
+---
+
+## Conversation Starters
+
+### At Gas Stations
+
+- Long day for you?
+- Headed home or headed somewhere better?
+- Traveling far today?
+- Busy roads out there?
+
+### At Diners / Restaurants
+
+- What’s good here?
+- You from around here?
+- This seems like a great town—what’s it like living here?
+- Been busy today?
+
+### At Campgrounds / RV Parks
+
+- How long have you been on the road?
+- Where’s been your favorite stop?
+- Full-time traveler or just getting away?
+
+---
+
+## Questions That Open Hearts
+
+When conversation becomes personal:
+
+- How has life been treating you lately?
+- What’s been heavy on you these days?
+- How’s your family doing?
+- You seem thoughtful today—everything okay?
+- What’s something you wish you could change right now?
+- Are you carrying a lot right now?
+
+> James 1:19  
+> Proverbs 20:5
+
+---
+
+## Listening Well
+
+Be slow to speak. Let people tell their story.
+
+### Helpful Responses
+
+- I’m sorry you’re going through that.
+- That sounds really hard.
+- Thank you for sharing that.
+- I can understand why that weighs on you.
+- You’ve been carrying a lot.
+
+### Avoid
+
+- Immediate preaching
+- Quick advice
+- Correcting emotions
+- Making it about yourself
+
+> Romans 12:15  
+> Proverbs 18:13
+
+---
+
+## Offering Real Hope
+
+When the moment is right:
+
+- I don’t know if faith means much to you, but God often meets people in hard seasons.
+- I’ve learned that even difficult seasons are not wasted.
+- There is hope, even when life feels stuck.
+- God has not forgotten you.
+- Sometimes the darkest roads lead people to grace.
+
+> Psalm 34:18  
+> Isaiah 41:10  
+> Matthew 11:28  
+> Romans 15:13
+
+---
+
+## Sharing the Gospel Naturally
+
+Keep it simple and clear.
+
+### Short Gospel Explanation
+
+The gospel is the good news that though we have sinned and gone our own way, God sent His Son Jesus Christ to save sinners. Jesus lived perfectly, died for our sins, rose again, and gives forgiveness and eternal life to all who trust in Him.
+
+> John 3:16  
+> Romans 5:8  
+> Romans 6:23  
+> 1 Corinthians 15:3-4  
+> Ephesians 2:8-9
+
+---
+
+## Questions About Sin
+
+- We all know something is broken in the world—and in us.
+- None of us are as good as we should be.
+- We all need mercy.
+- God is just, but He is also merciful.
+
+> Romans 3:23  
+> Ecclesiastes 7:20  
+> Psalm 51:1-4
+
+---
+
+## If They Ask Why Jesus
+
+- Jesus is not merely a teacher—He is the Savior.
+- He entered our broken world to rescue sinners.
+- He conquered death through His resurrection.
+- Our hope is not self-improvement but Christ.
+
+> John 14:6  
+> Acts 4:12  
+> Romans 10:9  
+> 1 Peter 3:18
+
+---
+
+## Offering Prayer
+
+### Simple Transition
+
+- Would it be okay if I prayed for you before I go?
+- Can I pray for that situation right now?
+- Would prayer be meaningful to you today?
+
+### Short Prayer for Strength
+
+> Lord, please give them peace, wisdom, and strength today.  
+> Carry what feels too heavy.  
+> Let them know they are not alone. Amen.
+
+### Prayer for Salvation
+
+> Lord Jesus, open hearts to know You.  
+> Reveal Your mercy and truth.  
+> Lead them to repentance and faith. Amen.
+
+### Prayer for Healing
+
+> Father, bring comfort, healing, and hope.  
+> Strengthen body, mind, and soul. Amen.
+>
+> Philippians 4:6-7  
+> James 5:13-16
+
+---
+
+## If They Are Open Spiritually
+
+Questions to continue:
+
+- Have you ever thought much about God?
+- Did you grow up around church?
+- What do you think happens after death?
+- Do you believe God is personal?
+- Have you ever read the teachings of Jesus?
+
+> Acts 17:22-31
+
+---
+
+## If They Are Closed Off
+
+Be gracious.
+
+- I understand.
+- Thanks for the conversation.
+- Safe travels.
+- Wishing you peace today.
+
+Leave with kindness.
+
+> Colossians 4:5-6
+
+---
+
+## Remember
+
+You are not responsible to convert anyone.
+
+You are called to:
+
+- Love people  
+- Speak truth  
+- Listen well  
+- Pray faithfully  
+- Trust God with results  
+
+> 1 Corinthians 3:6-7
+
+---
+
+## Final Daily Prayer
+
+> Lord, let me see the one person You are already working on today.  
+> Help me walk in love, truth, humility, and courage.  
+> Make me useful in ordinary places.  
+> In Jesus’ name, Amen.

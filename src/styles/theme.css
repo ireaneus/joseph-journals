@@ -10,7 +10,7 @@
 
   /* Blue Theme Light Mode */
   --sl-color-accent: hsl(201, 64%, 29%);
-  --sl-color-accent-high: hsl(201, 64%, 74%);
+  --sl-color-accent-high: hsl(177, 45%, 37%);
   --sl-color-accent-low: hsla(187, 64%, 87%, 0.548);
   --sl-color-text-accent: var(--sl-color-accent);
   --sl-color-bg-accent: var(--sl-color-accent-low);
@@ -27,7 +27,7 @@
 [data-theme=dark] {
   /* Blue Theme Dark Mode */
   --sl-color-accent: hsl(201, 64%, 50%);
-  --sl-color-accent-high: hsl(201, 44%, 66%);
+  --sl-color-accent-high: hsl(167, 65%, 70%);
   --sl-color-accent-low: hsl(201, 30%, 15%);
   --sl-color-text-accent: var(--sl-color-accent-high);
   --sl-color-bg-accent: var(--sl-color-accent-low);
@@ -71,4 +71,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .pagination-links {
   display: none !important;
+}
+
+/* Custom styling for italicized text */
+em, i {
+  color: var(--sl-color-accent-high);
+  font-style: italic;
 }
