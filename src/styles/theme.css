@@ -14,7 +14,7 @@
   --sl-color-accent-low: hsla(187, 64%, 87%, 0.548);
   --sl-color-text-accent: var(--sl-color-accent);
   --sl-color-bg-accent: var(--sl-color-accent-low);
-  --sl-color-bg: hsl(55, 86%, 94%);
+  --sl-color-bg: hsl(52, 73%, 96%);
   --sl-color-bg-nav: var(--sl-color-bg);
   --sl-color-bg-sidebar: var(--sl-color-bg);
   --sl-color-gray-1: hsl(201, 14%, 18%);

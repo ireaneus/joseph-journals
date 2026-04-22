@@ -8,6 +8,7 @@ status: [ draft, published ]
 series: [Series, Topical, Devotion, Resource, Scripture]
 seriesOrder: 1
 passage: 
+image: [/images/.webp]
 tags: 
     -
 ---

@@ -6,6 +6,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	site: 'https://ireaneus.github.io/joseph-journals/',
 	base: '/joseph-journals',
+	devToolbar: {
+		enabled: false,
+	},
 	integrations: [
 		starlight({
 			title: 'Journals of a modern-day Joseph',
@@ -15,18 +18,21 @@ export default defineConfig({
 			},
 			sidebar: [
   				{ label: 'Home', link: '/' },
-  				{ label: 'Bio', link: '/bio/' },
   				{
-  					label: 'Sermons',
+  					label: 'Bio', autogenerate: { directory: 'bio' },
+  				},
+  				{
+  					label: 'Articles',
+  					collapsed: true,
   					items: [
   						{ label: 'Series', autogenerate: { directory: 'sermons/series' } },
-  						{ label: 'Topics', autogenerate: { directory: 'sermons/topics' } },
+  						{ label: 'Topical', autogenerate: { directory: 'sermons/topics' } },
   						{ label: 'Scripture Index', autogenerate: { directory: 'sermons/scripture-index' } },
   					],
   				},
-  				{ label: 'Devotions', autogenerate: { directory: 'devotion' } },
-  				{ label: 'Bible Studies', autogenerate: { directory: 'bible-study' } },
-				{ label: 'Resources', autogenerate: { directory: 'resource' } },
+  				{ label: 'Devotions', collapsed: true, autogenerate: { directory: 'devotion' } },
+  				{ label: 'Bible Studies', collapsed: true, autogenerate: { directory: 'bible-study' } },
+				{ label: 'Resources', collapsed: true, autogenerate: { directory: 'resource' } },
 			]
 		}),
 	],
