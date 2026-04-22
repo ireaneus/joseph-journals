@@ -10,7 +10,7 @@ export const collections = {
       extend: z.object({
         description: z.string(),
         docType: z
-          .enum(['sermon', 'devotion', 'bible-study', 'resource'])
+          .enum(['article', 'devotion', 'bible-study', 'resource'])
           .optional(),
         passage: z.string().optional(),
         series: z.string().optional(),

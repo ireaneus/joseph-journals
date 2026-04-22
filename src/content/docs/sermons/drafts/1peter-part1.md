@@ -3,7 +3,7 @@ layout: ../../../../layouts/DocLayout.astro
 title: The letter of 1st Peter
 description: Peter, an apostle of Jesus Christ, To those who reside as strangers, scattered throughout Pontus, Galatia, Cappadocia, Asia, and Bithynia, who are chosen
 date: 2025-11-24
-docType: sermon
+docType: article
 status: draft
 series: 1 Peter
 seriesOrder: 1
