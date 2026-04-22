@@ -15,6 +15,7 @@ export default defineConfig({
 			},
 			sidebar: [
   				{ label: 'Home', link: '/' },
+  				{ label: 'Bio', link: '/bio/' },
   				{
   					label: 'Sermons',
   					items: [
