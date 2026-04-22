@@ -1,31 +1,8 @@
 ---
-import { getCollection } from 'astro:content';
+import { entryLink, formatDate, getPublishedSeriesEntries } from '../lib/docs';
 
 const { seriesName } = Astro.props;
-const entries = await getCollection('docs', (entry) =>
-  entry.data.series === seriesName && entry.data.status !== 'draft'
-);
-
-const sermons = [...entries].sort((a, b) => {
-  const aOrder = a.data.seriesOrder ?? 0;
-  const bOrder = b.data.seriesOrder ?? 0;
-  return aOrder - bOrder || a.data.title.localeCompare(b.data.title);
-});
-
-const formatDate = (date: Date | string | undefined): string => {
-  if (!date) return '';
-  const d = typeof date === 'string' ? new Date(date) : date;
-  const day = d.getDate().toString().padStart(2, '0');
-  const month = d.toLocaleDateString('en-US', { month: 'short' });
-  const year = d.getFullYear();
-  return `${day} ${month} ${year}`;
-};
-
-const baseUrl = import.meta.env.BASE_URL.endsWith('/')
-  ? import.meta.env.BASE_URL
-  : `${import.meta.env.BASE_URL}/`;
-
-const pageLink = (id: string) => `${baseUrl}${id.replace(/\.mdx?$/, '')}`;
+const sermons = await getPublishedSeriesEntries(seriesName);
 ---
 
 <section class="series-index">
@@ -40,7 +17,7 @@ const pageLink = (id: string) => `${baseUrl}${id.replace(/\.mdx?$/, '')}`;
           {entry.data.seriesOrder != null && (
             <span class="series-order">Part {entry.data.seriesOrder}: </span>
           )}
-          <a href={pageLink(entry.id)}>{entry.data.title ?? entry.id}</a>
+          <a href={entryLink(entry.id, import.meta.env.BASE_URL)}>{entry.data.title ?? entry.id}</a>
           {entry.data.date && (
             <span class="series-date"> — {formatDate(entry.data.date)}</span>
           )}

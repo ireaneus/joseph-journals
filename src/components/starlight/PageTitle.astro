@@ -1,35 +1,9 @@
 ---
-import { getCollection } from 'astro:content';
+import { entryLink, getSiblingSeriesEntries, type DocsEntry } from '../../lib/docs';
 
 const { starlightRoute } = Astro.locals;
-const currentEntry = starlightRoute.entry;
-const baseUrl = import.meta.env.BASE_URL.endsWith('/')
-  ? import.meta.env.BASE_URL
-  : `${import.meta.env.BASE_URL}/`;
-
-const docs = await getCollection('docs');
-
-const siblingEntries = currentEntry.data.series
-  ? docs
-      .filter(
-        (entry) =>
-          entry.id !== currentEntry.id &&
-          entry.data.series === currentEntry.data.series &&
-          entry.data.status === currentEntry.data.status
-      )
-      .concat(currentEntry)
-      .sort((a, b) => {
-        const aOrder = a.data.seriesOrder ?? 0;
-        const bOrder = b.data.seriesOrder ?? 0;
-        if (aOrder !== bOrder) return aOrder - bOrder;
-
-        const aDate = a.data.date ? new Date(a.data.date).getTime() : 0;
-        const bDate = b.data.date ? new Date(b.data.date).getTime() : 0;
-        if (aDate !== bDate) return aDate - bDate;
-
-        return (a.data.title ?? a.id).localeCompare(b.data.title ?? b.id);
-      })
-  : [];
+const currentEntry = starlightRoute.entry as DocsEntry;
+const siblingEntries = await getSiblingSeriesEntries(currentEntry);
 
 const currentIndex = siblingEntries.findIndex((entry) => entry.id === currentEntry.id);
 const previousEntry = currentIndex > 0 ? siblingEntries[currentIndex - 1] : undefined;
@@ -37,8 +11,6 @@ const nextEntry =
   currentIndex >= 0 && currentIndex < siblingEntries.length - 1
     ? siblingEntries[currentIndex + 1]
     : undefined;
-
-const entryLink = (id: string) => `${baseUrl}${id}`;
 ---
 
 <h1 id="_top">{currentEntry.data.title}</h1>
@@ -46,7 +18,7 @@ const entryLink = (id: string) => `${baseUrl}${id}`;
 {(previousEntry || nextEntry) && (
   <nav class="article-nav-cards" aria-label="Article navigation">
     {previousEntry ? (
-      <a class="article-nav-card article-nav-card-prev" href={entryLink(previousEntry.id)}>
+      <a class="article-nav-card article-nav-card-prev" href={entryLink(previousEntry.id, import.meta.env.BASE_URL)}>
         <span class="article-nav-eyebrow">Previous</span>
         <span class="article-nav-title">{previousEntry.data.title ?? previousEntry.id}</span>
         {previousEntry.data.passage && (
@@ -58,7 +30,7 @@ const entryLink = (id: string) => `${baseUrl}${id}`;
     )}
 
     {nextEntry ? (
-      <a class="article-nav-card article-nav-card-next" href={entryLink(nextEntry.id)}>
+      <a class="article-nav-card article-nav-card-next" href={entryLink(nextEntry.id, import.meta.env.BASE_URL)}>
         <span class="article-nav-eyebrow">Next</span>
         <span class="article-nav-title">{nextEntry.data.title ?? nextEntry.id}</span>
         {nextEntry.data.passage && (

@@ -86,6 +86,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .site-title {
   color: var(--sl-color-text) !important;
+  font-weight: 400 !important;
+}
+.site-title span,
+.sidebar-content .large,
+.sidebar-content .group-label,
+.right-sidebar-panel h2 {
+  font-weight: 400 !important;
 }
 .sidebar-content a,
 .sidebar-content a[aria-current=true] {
