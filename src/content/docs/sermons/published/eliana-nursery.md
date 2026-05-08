@@ -1,4 +1,17 @@
-
+---
+layout: ../../../../layouts/DocLayout.astro
+title: 
+description: 
+date: 2026-04-10
+docType: devotion
+status: published
+series: Devotion
+passage: Genesis 1:1-3
+image: [/images/welcome.webp]
+tags: 
+    - God
+    - beginning
+---
 
 # In the Beginning
 ### A Nursery Book of Creation
