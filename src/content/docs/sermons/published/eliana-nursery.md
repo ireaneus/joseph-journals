@@ -1,7 +1,7 @@
 ---
 layout: ../../../../layouts/DocLayout.astro
-title: 
-description: 
+title: Nursery Book for Eliana
+description: Genesis 1 written for Eliana
 date: 2026-04-10
 docType: devotion
 status: published
