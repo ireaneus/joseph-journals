@@ -121,5 +121,3 @@ with golden light.
 **2 Corinthians 4:6 · ESV**
 
 ---
-
-Would you like to add her name to the dedication, tweak any of the verses, or move on to Genesis 1:4–5 for book two?
