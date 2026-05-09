@@ -19,10 +19,11 @@ tags:
 
 ---
 
-*For my Eliana*
-*whose every breath is held*
-*in the hands of the God*
-*who made the light.*
+*For Eliana "My God has answered"*
+*little one so dear*
+*held in the hands*
+*of the God who made the light.*
+*and lovingly brought you here.*
 
 ---
 
@@ -32,7 +33,7 @@ tags:
 Before the world,
 before the sky,
 before the birds
-could ever fly—
+had learned to fly—
 
 *Genesis 1:1a*
 
@@ -112,7 +113,7 @@ with golden light.
 
 ## ✦ Closing
 
-*The same God who spoke light into the world loves **you**, little one.*
+*The same God who spoke light into the world loves **you**, little one,  Eliana.*
 
 ---
 
