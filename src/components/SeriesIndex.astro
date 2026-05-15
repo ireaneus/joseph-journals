@@ -2,17 +2,17 @@
 import { entryLink, formatDate, getPublishedSeriesEntries } from '../lib/docs';
 
 const { seriesName } = Astro.props;
-const sermons = await getPublishedSeriesEntries(seriesName);
+const entries = await getPublishedSeriesEntries(seriesName);
 ---
 
 <section class="series-index">
   <h1>{seriesName}</h1>
 
-  <p>Below are the sermons in this series.</p>
+  <p>Below are the published entries in this series.</p>
 
-  {sermons.length > 0 ? (
+  {entries.length > 0 ? (
     <ul>
-      {sermons.map((entry) => (
+      {entries.map((entry) => (
         <li>
           {entry.data.seriesOrder != null && (
             <span class="series-order">Part {entry.data.seriesOrder}: </span>
@@ -25,6 +25,6 @@ const sermons = await getPublishedSeriesEntries(seriesName);
       ))}
     </ul>
   ) : (
-    <p>No published sermons were found for this series yet.</p>
+    <p>No published entries were found for this series yet.</p>
   )}
 </section>

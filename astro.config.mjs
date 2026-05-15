@@ -20,19 +20,20 @@ export default defineConfig({
   				{ label: 'Home', link: '/' },
   				{
   					label: 'Bio', autogenerate: { directory: 'bio' },
-  				},
-  				{
-  					label: 'Articles',
-  					collapsed: true,
-  					items: [
-  						{ label: 'Series', autogenerate: { directory: 'sermons/series' } },
-  						{ label: 'Topical', autogenerate: { directory: 'sermons/topics' } },
-  						{ label: 'Scripture Index', autogenerate: { directory: 'sermons/scripture-index' } },
-  					],
-  				},
-  				{ label: 'Devotions', collapsed: true, autogenerate: { directory: 'devotion' } },
-  				{ label: 'Bible Studies', collapsed: true, autogenerate: { directory: 'bible-study' } },
-				{ label: 'Resources', collapsed: true, autogenerate: { directory: 'resource' } },
+				},
+				{
+					label: 'Articles',
+					collapsed: true,
+					items: [
+						{ label: 'Ephesians Series', slug: 'articles/series/ephesians' },
+						{ label: 'James Series', slug: 'articles/series/james' },
+						{ label: 'Topical', slug: 'articles/topical/topical' },
+						{ label: 'Scripture Index', slug: 'articles/scripture-index/scripture-index' },
+					],
+				},
+				{ label: 'Devotions', slug: 'devotions/devotion' },
+				{ label: 'Bible Studies', slug: 'bible-study/biblestudy' },
+				{ label: 'Resources', slug: 'resources/resource' },
 			]
 		}),
 	],
