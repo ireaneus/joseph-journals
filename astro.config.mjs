@@ -15,6 +15,7 @@ export default defineConfig({
 			customCss: ['./src/styles/theme.css'],
 			components: {
 				PageTitle: './src/components/starlight/PageTitle.astro',
+				Sidebar: './src/components/starlight/Sidebar.astro',
 			},
 			sidebar: [
   				{ label: 'Home', link: '/' },
