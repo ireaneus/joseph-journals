@@ -28,6 +28,7 @@ export default defineConfig({
 					items: [
 						{ label: 'Ephesians Series', slug: 'articles/series/ephesians' },
 						{ label: 'James Series', slug: 'articles/series/james' },
+						{ label: 'Ezekiel Series', slug: 'articles/series/ezekiel' },
 						{ label: 'Topical', slug: 'articles/topical/topical' },
 						{ label: 'Scripture Index', slug: 'articles/scripture-index/scripture-index' },
 					],
