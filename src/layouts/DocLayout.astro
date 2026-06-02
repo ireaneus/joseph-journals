@@ -1,27 +1,36 @@
 ---
 import SeriesIndex from '../components/SeriesIndex.astro';
+import type { DocsEntry } from '../lib/docs';
+
+type FrontmatterData = {
+  title?: string;
+  description?: string;
+  date?: Date | string;
+  passage?: string;
+  series?: string;
+  seriesName?: string;
+  speaker?: string;
+  tags?: string[];
+  status?: string;
+  image?: string | string[];
+  [key: string]: unknown;
+};
 
 interface Props {
-  frontmatter: {
-    title?: string;
-    description?: string;
-    date?: Date | string;
-    passage?: string;
-    series?: string;
-    seriesName?: string;
-    speaker?: string;
-    tags?: string[];
-    status?: string;
-    image?: string;
-    [key: string]: unknown;
-  };
+  frontmatter?: FrontmatterData;
 }
 
-const { frontmatter } = Astro.props as Props;
+const { frontmatter: fmProp } = Astro.props as Props;
+// Starlight content collection layouts pass data via locals, not via the frontmatter prop
+const starlightEntry = (Astro.locals as { starlightRoute?: { entry: DocsEntry } }).starlightRoute?.entry;
+const frontmatter: FrontmatterData = fmProp ?? (starlightEntry?.data as FrontmatterData) ?? {};
 
-const normalizedImagePath = frontmatter.image
-  ? String(frontmatter.image).replace(/^\/+/, '')
-  : undefined;
+const imageValue = frontmatter.image;
+const rawImagePath = Array.isArray(imageValue)
+  ? imageValue[0]
+  : typeof imageValue === 'string' ? imageValue : undefined;
+
+const normalizedImagePath = rawImagePath ? rawImagePath.replace(/^\/+/, '') : undefined;
 const baseUrl = import.meta.env.BASE_URL.endsWith('/')
   ? import.meta.env.BASE_URL
   : `${import.meta.env.BASE_URL}/`;

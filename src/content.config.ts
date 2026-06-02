@@ -8,18 +8,20 @@ export const collections = {
     loader: docsLoader(),
     schema: docsSchema({
       extend: z.object({
-        description: z.string(),
+        description: z.string().optional(),
         docType: z
           .enum(['article', 'devotion', 'bible-study', 'resource'])
           .optional(),
         passage: z.string().optional(),
         series: z.string().optional(),
+        seriesName: z.string().optional(),
         seriesOrder: z.number().optional(),
         status: z.enum(['draft', 'published']).optional(),
         tags: z.array(z.string()).optional(),
         date: z.coerce.date().optional(),
         speaker: z.string().optional(),
         audience: z.string().optional(),
+        image: z.union([z.string(), z.array(z.string())]).optional(),
       }),
     }),
   }),
