@@ -5,13 +5,7 @@ import type { DocsEntry } from '../lib/docs';
 type FrontmatterData = {
   title?: string;
   description?: string;
-  date?: Date | string;
-  passage?: string;
-  series?: string;
   seriesName?: string;
-  speaker?: string;
-  tags?: string[];
-  status?: string;
   image?: string | string[];
   [key: string]: unknown;
 };
@@ -39,20 +33,6 @@ const imageSrc = normalizedImagePath
   ? `${baseUrl}${normalizedImagePath}`
   : undefined;
 
-const formatDate = (date: Date | string | undefined): string => {
-  if (!date) return '';
-
-  const parsedDate = typeof date === 'string' ? new Date(date) : new Date(date);
-
-  if (Number.isNaN(parsedDate.getTime())) {
-    return String(date);
-  }
-
-  const day = parsedDate.getDate().toString().padStart(2, '0');
-  const month = parsedDate.toLocaleDateString('en-US', { month: 'short' });
-  const year = parsedDate.getFullYear();
-  return `${day} ${month} ${year}`;
-};
 ---
 
 <article class="doc-article">
@@ -69,53 +49,6 @@ const formatDate = (date: Date | string | undefined): string => {
       <p class="doc-description">{frontmatter.description}</p>
     )}
 
-    <div class="doc-metadata">
-      {frontmatter.date && (
-        <div class="meta-item">
-          <span class="meta-label">Date:</span>
-          <span class="meta-value">{formatDate(frontmatter.date)}</span>
-        </div>
-      )}
-
-      {frontmatter.passage && (
-        <div class="meta-item">
-          <span class="meta-label">Passage:</span>
-          <span class="meta-value">{frontmatter.passage}</span>
-        </div>
-      )}
-
-      {frontmatter.series && (
-        <div class="meta-item">
-          <span class="meta-label">Series:</span>
-          <span class="meta-value">{frontmatter.series}</span>
-        </div>
-      )}
-
-      {frontmatter.speaker && (
-        <div class="meta-item">
-          <span class="meta-label">Speaker:</span>
-          <span class="meta-value">{frontmatter.speaker}</span>
-        </div>
-      )}
-
-      {frontmatter.tags && frontmatter.tags.length > 0 && (
-        <div class="meta-item">
-          <span class="meta-label">Tags:</span>
-          <div class="tags-list">
-            {frontmatter.tags.map((tag) => (
-              <span class="tag">{tag}</span>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {frontmatter.status && (
-        <div class="meta-item">
-          <span class="meta-label">Status:</span>
-          <span class={`status status-${frontmatter.status}`}>{frontmatter.status}</span>
-        </div>
-      )}
-    </div>
   </div>
 
   <div class="doc-content">
