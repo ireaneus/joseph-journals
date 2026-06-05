@@ -22,6 +22,7 @@ export const collections = {
         speaker: z.string().optional(),
         audience: z.string().optional(),
         image: z.union([z.string(), z.array(z.string())]).optional(),
+        volume: z.string().optional(),
       }),
     }),
   }),

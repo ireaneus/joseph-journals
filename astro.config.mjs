@@ -34,6 +34,14 @@ export default defineConfig({
 					],
 				},
 				{ label: 'Devotions', slug: 'devotions/devotion' },
+				{
+					label: 'Nursery Bible',
+					collapsed: true,
+					items: [
+						{ label: 'Series Home', slug: 'nursery-bible' },
+						{ label: 'The Seven Days of Creation', slug: 'nursery-bible/the-seven-days' },
+					],
+				},
 				{ label: 'Bible Studies', slug: 'bible-study/biblestudy' },
 				{ label: 'Resources', slug: 'resources/resource' },
 			]
