@@ -1,4 +1,13 @@
 ---
+/**
+ * DocLayout — wraps a documentation page with an optional header image, description,
+ * and either a SeriesIndex (when `seriesName` is set) or the page's slot content.
+ *
+ * Frontmatter can arrive via two paths:
+ *   1. The `frontmatter` prop — used when this layout is referenced directly in MDX.
+ *   2. `Astro.locals.starlightRoute.entry.data` — used when Starlight resolves the
+ *      layout automatically from the content collection.
+ */
 import SeriesIndex from '../components/SeriesIndex.astro';
 import type { DocsEntry } from '../lib/docs';
 

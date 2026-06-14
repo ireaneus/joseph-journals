@@ -1,4 +1,9 @@
 ---
+/**
+ * PageTitle (Starlight override) — renders the page h1 and, when the current entry
+ * belongs to a series, a Previous / Next navigation card row beneath the title.
+ * Registered in astro.config.mjs under `components.PageTitle`.
+ */
 import { entryLink, getSiblingSeriesEntries, type DocsEntry } from '../../lib/docs';
 
 const { starlightRoute } = Astro.locals;

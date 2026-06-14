@@ -1,5 +1,14 @@
 ---
+/**
+ * SeriesIndex — renders a linked list of all published entries in a given series.
+ * Used by DocLayout when a page's frontmatter sets `seriesName`.
+ */
 import { entryLink, formatDate, getPublishedSeriesEntries } from '../lib/docs';
+
+interface Props {
+  /** The `series` slug used to filter collection entries (matches `series` in frontmatter). */
+  seriesName: string;
+}
 
 const { seriesName } = Astro.props;
 const entries = await getPublishedSeriesEntries(seriesName);
