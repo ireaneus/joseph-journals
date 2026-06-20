@@ -1,0 +1,613 @@
+---
+const baseUrl = import.meta.env.BASE_URL.endsWith('/')
+  ? import.meta.env.BASE_URL
+  : `${import.meta.env.BASE_URL}/`;
+
+const link = (path: string) => `${baseUrl}${path.replace(/^\/+/, '')}`;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Journals of a Modern-Day Joseph | David Haines</title>
+  <meta
+    name="description"
+    content="Scripture, theology, and testimony from David Haines — a husband, father, grandfather, and minister of the gospel shaped by ordinary life and sovereign grace."
+  />
+  <link rel="icon" type="image/svg+xml" href={link('favicon.svg')} />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;1,8..60,300;1,8..60,400&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body class="home-root">
+
+  <header>
+    <div class="container">
+      <a href={link('')} class="site-name">Journals of a Modern-Day Joseph</a>
+      <nav>
+        <a href={link('bio/')}>Bio</a>
+        <a href={link('articles/series/ezekiel/')}>Articles</a>
+        <a href={link('devotions/devotion/')}>Devotions</a>
+        <a href={link('bible-study/biblestudy/')}>Bible Studies</a>
+        <a href={link('resources/resource/')}>Resources</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <p class="hero-eyebrow">Scripture · Theology · Testimony</p>
+      <h1 class="hero-title">Journals of a Modern-Day Joseph</h1>
+      <p class="hero-sub">
+        Written by David Haines — husband, father, grandfather, and a student of Scripture shaped by ordinary life and sovereign grace.
+      </p>
+
+      <blockquote class="illuminated-verse">
+        <p>
+          <span class="drop-cap">B</span>ut we have this treasure in earthen vessels, so that the surpassing greatness of the power will be of God and not from ourselves.
+        </p>
+        <cite>2 Corinthians 4:7 · NASB1995</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">Purpose</p>
+      <h2>Why This Site Exists</h2>
+      <p>
+        These pages gather what grace has taught — reflections on Scripture, theology, providence, suffering, and the steady goodness of God through ordinary life. Part journal, part workshop, part witness.
+      </p>
+      <p>Not written to build a name. Written to leave something useful behind.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">Contents</p>
+      <h2>What You Will Find Here</h2>
+
+      <div class="content-grid">
+        <div class="content-card">
+          <h3>Bible Studies</h3>
+          <p>Expository studies working carefully through the text — currently Ezekiel, Ephesians, and James.</p>
+          <a href={link('bible-study/biblestudy/')}>Open Studies →</a>
+        </div>
+        <div class="content-card">
+          <h3>Devotions</h3>
+          <p>Reflections on Scripture, providence, and the ordinary places where God does His finest work.</p>
+          <a href={link('devotions/devotion/')}>Open Devotions →</a>
+        </div>
+        <div class="content-card">
+          <h3>Articles</h3>
+          <p>Topical and doctrinal studies on theology, the gospel, and the life of faith.</p>
+          <a href={link('articles/topical/topical/')}>Open Articles →</a>
+        </div>
+        <div class="content-card">
+          <h3>Resources</h3>
+          <p>Ministry tools and links to related projects, including Living Waters and CDI assignments.</p>
+          <a href={link('resources/resource/')}>Open Resources →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">The Name</p>
+      <h2>Why Joseph?</h2>
+
+      <div class="verse-pull">
+        <p>And Joseph awoke from his sleep and did as the angel of the Lord commanded him.</p>
+        <cite>Matthew 1:24 · NASB1995</cite>
+      </div>
+
+      <p>
+        Joseph stands in Scripture as a quiet and faithful man. Entrusted with much, remembered for little. After the early years of Jesus he disappears from the record — no sermons, no speeches, no public ministry. He obeyed and served, and that was enough.
+      </p>
+      <p>
+        Not every life is called to crowds or recognition. Some are given truths that burn within them and asked to wait, to labor in ordinary places, and to trust that God's work does not require an audience. The name of this site reflects that posture.
+      </p>
+
+      <div class="verse-pull">
+        <p>Whatever you do, do your work heartily, as for the Lord rather than for men.</p>
+        <cite>Colossians 3:23 · NASB1995</cite>
+      </div>
+
+      <p>
+        If these writings strengthen even one weary believer or direct one heart more fully to Christ, they will have served their purpose.
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">The Writer</p>
+      <h2>A Brief Word</h2>
+      <p>
+        Much of life has been lived in ordinary places — family responsibilities, daily work, quiet study, and the slow lessons God often teaches outside the spotlight. I am still learning that ministry is not merely having something to say. It is learning to hear people well, to ask thoughtful questions, and to speak truth with humility and love.
+      </p>
+
+      <div class="photo-frame">
+        <img src={link('images/PapaPhoto.webp')} alt="David Haines" />
+        <p class="photo-caption">David Haines</p>
+      </div>
+
+      <p>
+        If anything here is helpful, the credit belongs to God and to many faithful saints who invested in me. If anything is lacking, the fault belongs to the writer, who is still learning.
+      </p>
+      <p class="bio-link-row">
+        <a class="bio-link" href={link('bio/')}>Read the full bio →</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="section-label">Related Ministry</p>
+      <h2>Other Resources</h2>
+
+      <table class="resources-table">
+        <tbody>
+          <tr>
+            <td><a href="https://ireaneus.github.io/LivingWaters">Living Waters RV Ministry</a></td>
+            <td class="desc">Gospel outreach and ministry on the road</td>
+          </tr>
+          <tr>
+            <td><a href="https://ireaneus.github.io/CDI">Contenders Discipleship Initiative</a></td>
+            <td class="desc">Student assignments from the CDI training program</td>
+          </tr>
+          <tr>
+            <td><a href="https://ireaneus.github.io/SolaDeo">SolaDeo Kids Devotionals</a></td>
+            <td class="desc">Crew kids devotional content</td>
+          </tr>
+          <tr>
+            <td><a href="https://www.amazon.com/dp/B0FWX979KS">The Christmas Tower</a></td>
+            <td class="desc">A Christmas story</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p class="footer-note">
+        Unless otherwise noted, all Scripture quotations are from the New American Standard Bible 1995 (NASB1995).
+      </p>
+      <p class="footer-scripture">
+        "The broken cistern that holds no water becomes the earthen vessel that carries treasure."<br />
+        <span class="footer-scripture-ref">Jeremiah 2:13 · 2 Corinthians 4:7</span>
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+<style is:global>
+  .home-root {
+    --ink:        #1C1A17;
+    --vellum:     #F5EFE0;
+    --vellum-dark:#EDE5CE;
+    --iron:       #8B3A3A;
+    --stone:      #7A7468;
+    --stone-light:#B0A898;
+    --rule:       rgba(28, 26, 23, 0.12);
+
+    --display:    'Cormorant Garamond', Georgia, serif;
+    --body:       'Source Serif 4', Georgia, serif;
+
+    --measure:    68ch;
+    --gap:        clamp(2rem, 5vw, 4rem);
+  }
+
+  html:has(body.home-root) { font-size: 18px; scroll-behavior: smooth; }
+
+  body.home-root {
+    margin: 0;
+    background-color: var(--vellum);
+    color: var(--ink);
+    font-family: var(--body);
+    font-weight: 400;
+    line-height: 1.75;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .home-root *, .home-root *::before, .home-root *::after {
+    box-sizing: border-box;
+  }
+
+  .home-root .container {
+    max-width: calc(var(--measure) + 8rem);
+    margin: 0 auto;
+    padding: 0 clamp(1.5rem, 5vw, 4rem);
+  }
+
+  .home-root > header {
+    border-bottom: 1px solid var(--rule);
+    padding: 1.5rem 0;
+    background: var(--vellum);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .home-root > header .container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .home-root .site-name {
+    font-family: var(--display);
+    font-weight: 500;
+    font-size: 1.05rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink);
+    text-decoration: none;
+  }
+
+  .home-root nav {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .home-root nav a {
+    font-family: var(--body);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--stone);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .home-root nav a:hover { color: var(--iron); }
+
+  .home-root .hero {
+    padding: calc(var(--gap) * 2) 0 var(--gap);
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .home-root .hero-eyebrow {
+    font-family: var(--body);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-bottom: 2rem;
+  }
+
+  .home-root .hero-title {
+    font-family: var(--display);
+    font-size: clamp(2.4rem, 6vw, 4.2rem);
+    font-weight: 600;
+    line-height: 1.12;
+    letter-spacing: -0.01em;
+    max-width: 18ch;
+    margin-bottom: 2rem;
+  }
+
+  .home-root .hero-sub {
+    font-family: var(--body);
+    font-size: 1.05rem;
+    color: var(--stone);
+    max-width: 50ch;
+    line-height: 1.7;
+    margin-bottom: var(--gap);
+  }
+
+  .home-root .illuminated-verse {
+    border-left: 3px solid var(--iron);
+    padding: 2rem 2.5rem;
+    background: var(--vellum-dark);
+    max-width: var(--measure);
+    margin: var(--gap) 0;
+    position: relative;
+  }
+
+  .home-root .illuminated-verse::before {
+    content: '\201C';
+    font-family: var(--display);
+    font-size: 6rem;
+    font-weight: 300;
+    color: var(--iron);
+    opacity: 0.25;
+    position: absolute;
+    top: -0.5rem;
+    left: 1rem;
+    line-height: 1;
+    pointer-events: none;
+  }
+
+  .home-root .illuminated-verse .drop-cap {
+    float: left;
+    font-family: var(--display);
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: var(--iron);
+    line-height: 0.75;
+    margin-right: 0.08em;
+    margin-top: 0.12em;
+  }
+
+  .home-root .illuminated-verse p {
+    font-family: var(--display);
+    font-size: clamp(1.25rem, 2.5vw, 1.6rem);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.55;
+    color: var(--ink);
+  }
+
+  .home-root .illuminated-verse p::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  .home-root .illuminated-verse cite {
+    display: block;
+    font-family: var(--body);
+    font-style: normal;
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-top: 1rem;
+  }
+
+  .home-root .section {
+    padding: var(--gap) 0;
+    border-bottom: 1px solid var(--rule);
+    opacity: 0;
+    transform: translateY(18px);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+  }
+
+  .home-root .section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .home-root .section-label {
+    font-family: var(--body);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--iron);
+    margin-bottom: 1.25rem;
+  }
+
+  .home-root .section h2 {
+    font-family: var(--display);
+    font-size: clamp(1.5rem, 3vw, 2.2rem);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 1.25rem;
+  }
+
+  .home-root .section p {
+    font-size: 1rem;
+    max-width: var(--measure);
+    margin-bottom: 1rem;
+    color: var(--ink);
+  }
+
+  .home-root .section p:last-of-type { margin-bottom: 0; }
+
+  .home-root .verse-pull {
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    padding: 1.5rem 0;
+    margin: 2rem 0;
+    max-width: var(--measure);
+  }
+
+  .home-root .verse-pull p {
+    font-family: var(--display);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    color: var(--ink);
+  }
+
+  .home-root .verse-pull cite {
+    display: block;
+    font-family: var(--body);
+    font-style: normal;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--stone);
+    margin-top: 0.75rem;
+  }
+
+  .home-root .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .home-root .content-card {
+    border-top: 2px solid var(--iron);
+    padding-top: 1.25rem;
+  }
+
+  .home-root .content-card h3 {
+    font-family: var(--display);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .home-root .content-card p {
+    font-size: 0.9rem;
+    color: var(--stone);
+    line-height: 1.6;
+  }
+
+  .home-root .content-card a {
+    display: inline-block;
+    margin-top: 0.75rem;
+    font-family: var(--body);
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--iron);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+  }
+
+  .home-root .content-card a:hover { opacity: 0.7; }
+
+  .home-root .resources-table {
+    width: 100%;
+    max-width: var(--measure);
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+  }
+
+  .home-root .resources-table tr {
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .home-root .resources-table td {
+    padding: 0.9rem 0;
+    font-size: 0.9rem;
+    vertical-align: top;
+  }
+
+  .home-root .resources-table td:first-child {
+    padding-right: 2rem;
+    width: 50%;
+  }
+
+  .home-root .resources-table a {
+    font-family: var(--display);
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+    border-bottom: 1px solid var(--rule);
+  }
+
+  .home-root .resources-table a:hover { border-color: var(--iron); color: var(--iron); }
+
+  .home-root .resources-table .desc {
+    color: var(--stone);
+    font-size: 0.85rem;
+  }
+
+  .home-root .photo-frame {
+    max-width: 420px;
+    margin: 2rem 0;
+  }
+
+  .home-root .photo-frame img {
+    width: 100%;
+    display: block;
+    filter: sepia(15%) contrast(1.02);
+  }
+
+  .home-root .photo-caption {
+    font-size: 0.78rem;
+    color: var(--stone);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 0.5rem;
+  }
+
+  .home-root .bio-link-row { margin-top: 1rem; }
+
+  .home-root .bio-link {
+    font-family: var(--body);
+    font-size: 0.8rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--iron);
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    padding-bottom: 1px;
+  }
+
+  .home-root > footer {
+    padding: 3rem 0 2rem;
+  }
+
+  .home-root > footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .home-root .footer-note {
+    font-size: 0.8rem;
+    color: var(--stone);
+    max-width: 40ch;
+    line-height: 1.7;
+  }
+
+  .home-root .footer-scripture {
+    font-family: var(--display);
+    font-size: 0.95rem;
+    font-style: italic;
+    color: var(--stone);
+    max-width: 36ch;
+    line-height: 1.6;
+  }
+
+  .home-root .footer-scripture-ref {
+    font-size: 0.78rem;
+    font-style: normal;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--stone-light);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .home-root .section {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .home-root .illuminated-verse { padding: 1.5rem; }
+    .home-root nav { gap: 1rem; }
+    .home-root .content-grid { grid-template-columns: 1fr; }
+  }
+</style>
+
+<script>
+  const sections = document.querySelectorAll('.home-root .section');
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          observer.unobserve(entry.target);
+        }
+      });
+    },
+    { threshold: 0.08 }
+  );
+  sections.forEach((s) => observer.observe(s));
+</script>
