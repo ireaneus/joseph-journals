@@ -1,5 +1,5 @@
 :root {
-  font-family: "Aptos", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", "Segoe UI Historic", "Helvetica Neue", Arial, sans-serif;
+  font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -72,7 +72,7 @@ main > .content-panel:nth-of-type(2) {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Georgia, Cambria, "Times New Roman", serif !important;
+  font-family: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", serif !important;
   font-weight: normal;
   letter-spacing: -0.02em;
 }
@@ -81,21 +81,21 @@ h1, h2, h3, h4, h5, h6 {
 .site-title span,
 .sidebar-content {
   background-color: var(--sl-color-bg) !important;
-  font-family: Georgia, Cambria, "Times New Roman", serif !important;
+  font-family: "Cormorant Garamond", Georgia, Cambria, "Times New Roman", serif !important;
 }
 .site-title {
   color: var(--sl-color-text) !important;
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 .site-title span,
 .sidebar-content .large,
 .sidebar-content .group-label,
 .right-sidebar-panel h2 {
-  font-weight: 400 !important;
+  font-weight: 500 !important;
 }
 .sidebar-content a,
 .sidebar-content a[aria-current=true] {
-  font-family: Georgia, Cambria, "Times New Roman", serif !important;
+  font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", serif !important;
 }
 
 .pagination-links {
