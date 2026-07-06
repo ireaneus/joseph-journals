@@ -94,7 +94,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500 !important;
 }
 .sidebar-content a,
-.sidebar-content a[aria-current=true] {
+.sidebar-content a[aria-current=true],
+.sidebar-content .group-label .large {
   font-family: "Source Serif 4", Georgia, Cambria, "Times New Roman", serif !important;
 }
 
