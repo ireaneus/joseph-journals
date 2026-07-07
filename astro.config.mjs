@@ -31,7 +31,7 @@ export default defineConfig({
 			sidebar: [
   				{ label: 'Home', link: '/' },
   				{
-  					label: 'Bio', autogenerate: { directory: 'bio' },
+  					label: 'About', autogenerate: { directory: 'bio' },
 				},
 				{
 					label: 'Articles',

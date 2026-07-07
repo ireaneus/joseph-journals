@@ -29,7 +29,7 @@ const firstLink = (entries: SidebarEntry[]): SidebarLink | undefined => {
 const iconForLabel = (label: string): StarlightIcon => {
 	const normalized = label.toLowerCase();
 	if (normalized.includes('home')) return 'starlight';
-	if (normalized.includes('bio')) return 'heart';
+	if (normalized.includes('bio') || normalized.includes('about')) return 'heart';
 	if (normalized.includes('article')) return 'document';
 	if (normalized.includes('devotion')) return 'open-book';
 	if (normalized.includes('bible')) return 'list-format';
